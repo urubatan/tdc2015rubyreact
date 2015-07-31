@@ -1,0 +1,29 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#blogList {
+  float: left;
+  width: 200px;
+}
+#blogPost{
+  margin-left: 220px;
+  min-height: 400px;
+  border-style: solid;
+  .blog-post {
+    label {
+      width: 150px;
+      display: inline-block;;
+    }
+    .form-field {
+      min-height: 30px;
+      border-bottom-style: solid;
+      input {
+        width: 200px;
+      }
+      textarea {
+        height: 200px;
+        width: 400px;
+      }
+    }
+  }
+}

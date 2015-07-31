@@ -1,0 +1,40 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#list {
+  width: 65%;
+  border-style: solid;
+  border-radius: 10px;
+  min-height: 500px;
+  display: inline-block;
+  table {
+    width: 100%;
+    border-style: none;
+    thead,tbody {
+      td,th {
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+      }
+    }
+  }
+
+}
+#form {
+  float: right;
+  width: 30%;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 5px;
+  display: inline-block;
+  .form-field {
+    label {
+      width: 100px;
+      display: inline-block;
+    }
+    input {
+      width: 100px;
+    }
+    width: 210px;
+  }
+
+}
